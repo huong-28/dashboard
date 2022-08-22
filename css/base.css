@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #f1f1f1;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: calc(36 / 24);
+}
+
+h4 {
+  font-size: 20px;
+  line-height: calc(30 / 20);
+}
+
+h5 {
+  font-size: 18px;
+  line-height: calc(27 / 18);
+}
+
+.main-content {
+  margin-left: 300px;
+  margin-top: 43px;
+  padding: 22px 16px;
+}
+
+tr:nth-child(odd) {
+    background-color: var(--white-color);
+  }
+
+.table-design {
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+}
+
+.blue {
+  color: var(--blue-color);
+}
+
+.red {
+  color: var(--red-color);
+}
+
+.yellow {
+  color: var(--yellow-color);
+}
+
+.green {
+  color: var(--green-color);
+}
+
+.teal {
+  color: var(--teal-color);
+}
+
+:root {
+  --black-color: #000;
+  --white-color: #fff;
+  --hover-color: #ccc;
+  --red-color: #f44336;
+  --blue-color: #2196f3;
+  --yellow-color: #ff9800;
+  --green-color: #4caf50;
+  --teal-color: #009688;
+}
